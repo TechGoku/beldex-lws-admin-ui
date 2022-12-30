@@ -53,7 +53,7 @@ export async function rescanAccount({
 
 function execute<TModel>(cmd: string) {
   return new Promise<TModel>((resolve, reject) => {
-    exec(`monero-lws-admin ${cmd}`, {}, (error, stdout) => {
+    exec(`beldex-lws-admin ${cmd}`, {}, (error, stdout) => {
       if (error) {
         reject(error.message);
         return;

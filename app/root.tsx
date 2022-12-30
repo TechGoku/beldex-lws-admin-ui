@@ -14,7 +14,7 @@ export function links() {
 }
 
 export const meta: MetaFunction = () => {
-  return { title: 'monero-lws-admin' };
+  return { title: 'beldex-lws-admin' };
 };
 
 export default function App() {

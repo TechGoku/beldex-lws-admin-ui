@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "monero-lws-admin-ui",
-  "description": "A web client for monero-lws-admin cli.",
+  "name": "beldex-lws-admin-ui",
+  "description": "A web client for beldex-lws-admin cli.",
   "license": "MIT",
   "scripts": {
     "build": "npm run build:css && remix build",
